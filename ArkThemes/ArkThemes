@@ -27,9 +27,9 @@ github_ark_owner="JohnIrvine1433" #Used for ArkThemes update function
 github_ark_repo="ArkThemes"       #Used for ArkThemes update function
 current_ark_version="1.2.4"
 
-themes_location="/roms/themes/" #ES themes location path with trailing slash
+themes_location="/etc/emulationstation/themes/" #ES themes location path with trailing slash
 temp_ram_folder="/dev/shm/"     #ram folder with trailing slash
-ark_location="/roms/tools/"     #ArkThemes installation path with trailing slash
+ark_location="/opt/tools/ArkThemes"     #ArkThemes installation path with trailing slash
 
 #
 # ArkThemes settings initialisation
