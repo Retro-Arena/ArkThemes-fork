@@ -18,11 +18,7 @@ shopt -s extglob # required for extented pattern recognition
 #
 # Joystick controls
 #
-if id "ark" & >/dev/null; then
-  sudo ./oga_controls &
-else
-  ./oga_controls &
-fi
+sudo /roms/ports/AnberPorts/bin/oga_controls ArkThemes &
 clear
 #
 # ArkThemes Configuration
